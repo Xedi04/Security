@@ -8,3 +8,19 @@
     width: 100%;
     @include flex;
 }
+
+@mixin head{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        color: grey;
+        font-size: 15px;
+    }
+}
