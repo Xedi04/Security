@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 32px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+}
+nav .navbar-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 10px 0;
+}
+nav .navbar-1 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100px;
+  justify-content: space-between;
+}
+nav .navbar-1 ul li {
+  font-size: 14px;
+  cursor: pointer;
+}
+nav .navbar-1 .nav {
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .navbar-1 .nav p {
+  font-size: 13px;
+  transition: all 0.5s ease;
+}
+nav .navbar-1 .nav p:hover {
+  color: orange;
+  cursor: pointer;
+}
+nav .navbar-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+nav .navbar-2 ul {
+  width: 600px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .navbar-2 ul li {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp");
+  background-size: cover;
+  background-position: center;
+}
+header .head-all {
+  width: 100%;
+  padding: 150px 0;
+}
+header .head-all .head {
+  width: 70%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .head-all .head h1 {
+  font-size: 50px;
+}
+header .head-all .head #headbtn {
+  width: 200px;
+  padding: 15px;
+  background-color: rgb(211, 164, 35);
+  border: none;
+  color: white;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+}
+header .head-all .head #headbtn:hover {
+  color: rgb(211, 164, 35);
+  background-color: black;
+  border: 2px solid;
+  cursor: pointer;
+}
+header .head-all .head h6 {
+  font-size: 15px;
+}
+
+.image {
+  width: 100%;
+}
+.image .image-all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0;
+  gap: 50px;
+}
+.image .image-all .image-head {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.image .image-all .image-head h2 {
+  font-size: 40px;
+}
+.image .image-all .image-head p {
+  color: grey;
+  font-size: 15px;
+}
+.image .image-all .image1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.image .image-all .image1 .img3 {
+  width: 31%;
+  transition: all 0.5s ease;
+}
+.image .image-all .image1 .img3:hover {
+  background-color: rgb(211, 164, 35);
+}
+.image .image-all .image1 .img3:hover p {
+  color: black;
+}
+.image .image-all .image1 .img3 .img {
+  width: 100%;
+  padding: 20px;
+}
+.image .image-all .image1 .img3 .img img {
+  width: 100%;
+}
+.image .image-all .image1 .img3 .img-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+.image .image-all .image1 .img3 .img-text:hover p {
+  color: black;
+}
+.image .image-all .image1 .img3 .img-text h5 {
+  font-size: 18px;
+}
+.image .image-all .image1 .img3 .img-text p {
+  font-size: 17px;
+  color: grey;
+}
+
+.some {
+  width: 100%;
+}
+.some .some-all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px 0;
+}
+.some .some-all .some-head {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.some .some-all .some-head h2 {
+  font-size: 40px;
+}
+.some .some-all .some-head p {
+  color: grey;
+  font-size: 15px;
+}
+.some .some-all .some-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 55px;
+}
+.some .some-all .some-text .some6 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 50px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.some .some-all .some-text .some6:hover {
+  background-color: rgb(211, 164, 35);
+}
+.some .some-all .some-text .some6:hover p {
+  color: black;
+}
+.some .some-all .some-text .some6 .icon-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.some .some-all .some-text .some6 .icon-text i {
+  font-size: 25px;
+}
+.some .some-all .some-text .some6 .icon-text h3 {
+  font-size: 19px;
+}
+.some .some-all .some-text .some6 p {
+  color: grey;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
