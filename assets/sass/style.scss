@@ -17,6 +17,39 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.Adddiv{
+    width: 100%;
+    background-color: deeppink;
+    height: 100vh;
+    @include flex;
+ form{
+    width: 40%;
+    padding: 100px;
+   display: flex;
+    margin: auto;
+    color: white;
+    background-color: mediumorchid;
+    flex-direction: column;
+    gap: 20px;
+    input[type=file]::file-selector-button{
+        width: 100px;
+       background-color:darkorchid;
+       padding: 10px;
+       color: white;
+    }
+    #addbtn{
+        width: 100px;
+        padding: 10px;
+        background-color: deeppink;
+        cursor: pointer;
+    }
+   
+    input[type=text]{
+        padding: 10px;
+    }
+ }
+}
+
 nav {
     width: 100%;
     position: fixed;

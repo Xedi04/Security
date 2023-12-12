@@ -15,6 +15,40 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.Adddiv {
+  width: 100%;
+  background-color: deeppink;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Adddiv form {
+  width: 40%;
+  padding: 100px;
+  display: flex;
+  margin: auto;
+  color: white;
+  background-color: mediumorchid;
+  flex-direction: column;
+  gap: 20px;
+}
+.Adddiv form input[type=file]::file-selector-button {
+  width: 100px;
+  background-color: darkorchid;
+  padding: 10px;
+  color: white;
+}
+.Adddiv form #addbtn {
+  width: 100px;
+  padding: 10px;
+  background-color: deeppink;
+  cursor: pointer;
+}
+.Adddiv form input[type=text] {
+  padding: 10px;
+}
+
 nav {
   width: 100%;
   position: fixed;

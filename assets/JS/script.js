@@ -32,3 +32,39 @@ click.addEventListener("click", (e)=>{
     }
 })
 
+
+let imgDiv=document.querySelector(".image1");
+
+fetch("http://localhost:3000/security")
+.then(res=>res.json())
+.then(data=>{
+    data.forEach(element => {
+       imgDiv.innerHTML+=`
+       <div class="img3">
+            <div class="img">
+                <img src="${element.image}" alt="">
+            </div>
+            <div class="img-text">
+                <h5>${element.name}{</h5>
+                <p>${element.description}</p>
+                <div class="but">
+                    <button id="details" onclick="goTo(${element.id})">Details</button>
+                    <button id="delete">Delete</button>
+                    <button id="update">Update</button>
+                </div>
+            </div>    
+       </div>
+       `
+        
+    });
+})
+
+function goTo(id){
+    window.location=`./details.html?id=${id}`;
+}
+
+let ADD=document.querySelector("#add");
+ADD.addEventListener("click", ()=>{
+    window.location="./add.html"
+})
+
