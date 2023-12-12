@@ -49,8 +49,8 @@ fetch("http://localhost:3000/security")
                 <p>${element.description}</p>
                 <div class="but">
                     <button id="details" onclick="goTo(${element.id})">Details</button>
-                    <button id="delete">Delete</button>
-                    <button id="update">Update</button>
+                    <button id="delete" onclick="deleteData(${element.id})">Delete</button>
+                    <button id="update"><a href="./update.html" style="text-decoration:none; color:white;">Update</a></button>
                 </div>
             </div>    
        </div>
@@ -68,3 +68,11 @@ ADD.addEventListener("click", ()=>{
     window.location="./add.html"
 })
 
+
+function deleteData(id){
+    axios.delete(`http://localhost:3000/security/${id}`)
+    .then(resu=>{
+      window.location.reload();
+    })
+
+  }

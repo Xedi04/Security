@@ -17,6 +17,36 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.update{
+    width: 100%;
+    background-color: bisque;
+    height: 100vh;
+    @include flex;
+    form{
+        margin: auto;
+        padding: 100px 20px;
+        width: 40%;
+      display: flex;
+      justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        background-color: darkslategrey;
+        color: white;
+        font-size: 20px;
+        input{
+            width: 80%;
+            padding: 10px 0;
+        }
+        #submit{
+            width: 100px;
+            padding: 10px 0;
+            background-color: bisque;
+            cursor: pointer;
+        }
+
+    }
+}
+
 .Adddiv{
     width: 100%;
     background-color: deeppink;
