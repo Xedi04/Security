@@ -227,11 +227,11 @@ header .head-all .head #headbtn {
   color: white;
   transition: all 0.5s ease;
   margin-top: 20px;
+  border: 2px solid gold;
 }
 header .head-all .head #headbtn:hover {
   color: gold;
   background-color: black;
-  border: 2px solid;
   cursor: pointer;
 }
 header .head-all .head h6 {
@@ -268,11 +268,14 @@ header .head-all .head h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .image .image-all .image1 .img3 {
   width: 31%;
   transition: all 0.5s ease;
+  padding: 10px 10px;
+  font-size: 20px;
 }
 .image .image-all .image1 .img3:hover {
   background-color: gold;
@@ -306,7 +309,7 @@ header .head-all .head h6 {
   color: grey;
 }
 .image .image-all .image1 .img3 .img-text button {
-  width: 100px;
+  width: 80px;
   padding: 10px;
   background-color: gold;
   color: white;
@@ -318,6 +321,13 @@ header .head-all .head h6 {
 .image .image-all .image1 .img3 .img-text button:hover {
   background-color: black;
   color: gold;
+}
+.image .image-all #load {
+  width: 100px;
+  background-color: gold;
+  padding: 10px 0;
+  cursor: pointer;
+  border: none;
 }
 
 .some {

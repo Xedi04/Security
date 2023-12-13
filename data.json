@@ -7,10 +7,10 @@
       "description": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
     },
     {
-      "id": 2,
-      "image": "./assets/images/img2.webp",
-      "name": "Brake Repairs & Services",
-      "description": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
+      "image": "http://127.0.0.1:5501/assets/images/img2.webp",
+      "name": "fdg",
+      "description": "Computer users and prdzsgdfgfogrammers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.",
+      "id": 2
     },
     {
       "id": 3,
@@ -23,6 +23,26 @@
       "name": "Thor",
       "description": "sreg",
       "id": 4
+    }
+  ],
+  "Favorites": [
+    {
+      "image": "http://127.0.0.1:5501/assets/images/img2.webp",
+      "name": "fdg",
+      "description": "Computer users and prdzsgdfgfogrammers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/img3.webp",
+      "name": "Preventive Maintenance",
+      "description": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
+    },
+    {
+      "id": 1,
+      "image": "./assets/images/img1.webp",
+      "name": "Basic & Common Repairs",
+      "description": "Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
     }
   ]
 }
