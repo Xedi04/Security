@@ -1,12 +1,12 @@
 let id = new URLSearchParams(window.location.search).get("id");
 console.log(id);
-let Div=document.querySelector(".image1");
+let Div = document.querySelector(".image1");
 
-fetch('http://localhost:3000/security/'+id)
-.then(res=>res.json())
-.then(data=>{
-    
-    Div.innerHTML+=`
+fetch('http://localhost:3000/security/' + id)
+    .then(res => res.json())
+    .then(data => {
+
+        Div.innerHTML += `
     <div class="img3">
             <div class="img">
                 <img src="${data.image}" alt="">
@@ -22,4 +22,4 @@ fetch('http://localhost:3000/security/'+id)
             </div>    
        </div>
     `
-})
+    })

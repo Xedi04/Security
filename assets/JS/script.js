@@ -90,9 +90,15 @@ Load.addEventListener("click", () => {
     loadMore();
 })
 
-function addFavorite(id){
-    axios.get("http://localhost:3000/security/"+id)
-    .then(res=>{
-        axios.post("http://localhost:3000/Favorites/", res.data)
-    })
+function addFavorite(id) {
+    axios.get("http://localhost:3000/security/" + id)
+        .then(res => {
+            axios.post("http://localhost:3000/Favorites/", res.data)
+        })
 }
+
+let Fav = document.querySelector("#fav");
+
+Fav.addEventListener("click", () => {
+    window.location = "./favorite.html"
+})
